@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{13C51709-5CAF-BC5E-2DC0-EB8A52B18D74}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/media/scripts/playerMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/gameController.cs">
     <Files>
       <File FileName="Assets/media/scripts/cameraController.cs" Line="9" Column="31" />
-      <File FileName="Assets/wallAnimation.cs" Line="20" Column="46" />
+      <File FileName="Assets/wallAnimation.cs" />
       <File FileName="Assets/media/scripts/playerMovement.cs" Line="54" Column="31" />
+      <File FileName="Assets/gameController.cs" Line="6" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,10 +12,9 @@
           <Node name="SwitchUp-3D" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="media" expanded="True">
-                <Node name="scripts" expanded="True">
-                  <Node name="playerMovement.cs" selected="True" />
-                </Node>
+                <Node name="scripts" expanded="True" />
               </Node>
+              <Node name="gameController.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -23,7 +23,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2b597b06-502a-4d7b-89af-aa5ff16a7ed7" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a95c4b38-2c9d-45f8-b871-efba2c34876c" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -32,8 +32,6 @@ public class playerMovement : MonoBehaviour
                     {
                         sprint = 1f;
                     }
-        Debug.Log("sprintdown" + sprintDown);
-        Debug.Log("sprintmod" + sprint);
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical") * sprint;
 

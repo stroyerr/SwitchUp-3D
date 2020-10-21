@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - cameraController
+    - gameController
     - playerMovement
     - wallAnimation
     Unity.Rider.Editor.dll:
@@ -41,11 +42,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 11780}
+    - Class: 114
       Script: {instanceID: 11842}
     - Class: 114
       Script: {instanceID: 12944}
     - Class: 114
-      Script: {instanceID: 15036}
+      Script: {instanceID: 13924}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 143
@@ -225,6 +228,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 32524cae767d1683edc29e405882b6b0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: wallAnimation
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -497,12 +506,12 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 32524cae767d1683edc29e405882b6b0
+      Hash: fa0bfd4cc2485578bbeb4891a0532dcd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: wallAnimation
+    className: gameController
   platform: 2
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/angusoneill/Desktop/allfiles/School/!2021/Multimedia/Major Proj/UNITY/SwitchUp-3D/Beta
-    Builds (DEVELOPMENT BUILDS)/SwitchUp dev_0.3.app
+  playerPath: /Users/angusoneill/Desktop/allfiles/School/!2021/Multimedia/Major Proj/UNITY/SwitchUp-3D/Builds/Betas/SwitchUp
+    b0.1.app
